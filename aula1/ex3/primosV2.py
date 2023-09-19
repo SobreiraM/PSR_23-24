@@ -30,9 +30,10 @@ def main():
             print('Number ' + Fore.GREEN + str(i) + Style.RESET_ALL +  ' is prime.')
         else:
             print('Number ' + str(i) + ' is not prime.')
-            print('Dividers used:'),
-            for k in range(0,i):
-                print(str(k), end=" ")
+            print('Dividers (rest = 0):'),
+            for k in range(2,i):
+                if i%k==0:
+                    print(str(k), end=" ")
             print("")
 
 if __name__ == "__main__":
