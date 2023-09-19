@@ -1,8 +1,9 @@
-maximum_number = 50
+# command line : python3 primos.py |grep "is prime" |  grep "3" | wc -l
+maximum_number = 10000
 
 
 def isPrime(value):
-    for i in range(2,maximum_number):
+    for i in range(2,value):
         if value%i==0:
             return False
         
