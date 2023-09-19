@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 #shebang line
 
-a maria inês é muito linda
 maximum_number = 100
 
 def isPerfect(value):
