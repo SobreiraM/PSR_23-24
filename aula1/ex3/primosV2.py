@@ -31,7 +31,7 @@ def main():
         else:
             print('Number ' + str(i) + ' is not prime.')
             print('Dividers (rest = 0):'),
-            for k in range(2,i):
+            for k in range(1,i+1):
                 if i%k==0:
                     print(str(k), end=" ")
             print("")
