@@ -11,8 +11,8 @@ def isPerfect(value):
             sum += i   #somar numeros cuja divisão por value tenha resto 0
             
         if sum==value:
-            return True
-        
+            return True #se o valor da soma dos divisores for igual ao
+                        #valor recebido pela função, é um numero perfeito  
     return False
 
 def main():
